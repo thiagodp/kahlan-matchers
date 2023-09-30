@@ -1,0 +1,22 @@
+{
+    "name": "phputil/kahlan",
+    "description": "Additional matchers for Kahlan",
+    "type": "library",
+    "license": "MIT",
+    "authors": [ { "name": "Thiago Delgado Pinto", "homepage": "https://github.com/thiagodp" } ],
+    "scripts": {
+        "test": "kahlan",
+        "dump": "composer dump-autoload"
+    },
+    "autoload": {
+        "psr-4": {
+            "phputil\\kahlan\\": "src/"
+        },
+        "files": [
+            "src/register.php"
+        ]
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^5.2"
+    }
+}
