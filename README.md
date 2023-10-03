@@ -4,7 +4,7 @@
 
 ## Install
 
-> Requires PHP 7 and the extension `mbstring`
+> Requires PHP 7 and the extensions `pcre` and `mbstring`
 
 ```bash
 composer require phputil/kahlan --dev
