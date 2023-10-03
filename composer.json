@@ -20,6 +20,7 @@
         "kahlan/kahlan": "^5.2"
     },
     "require": {
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "ext-pcre": "*"
     }
 }
