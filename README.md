@@ -4,14 +4,22 @@
 
 ## Install
 
+> Requires PHP 7 and the extension `mbstring`
+
 ```bash
 composer require phputil/kahlan --dev
 ```
 
+See [tips](tips.md) for help.
+
+
 ## Matchers
 
-- [toThrowAnExceptionThatMatches](spec/ToThrowAnExceptionThatMatches.spec.php)
-- [toThrowAnExceptionWithCode](spec/ToThrowAnExceptionWithCode.spec.php)
+- Exception:
+  - [toThrowAnExceptionThatMatches](spec/ToThrowAnExceptionThatMatches.spec.php) - compares an exception message with the given Regular Expression
+  - [toThrowAnExceptionWithCode](spec/ToThrowAnExceptionWithCode.spec.php) - compares an exception code with the given code
+- String:
+  - [toHaveStringLength](spec/ToHaveStringLength.spec.php) - compares a _multi-byte_ string length with the given length
 
 > Suggestions? Please [open an Issue](https://github.com/thiagodp/kahlan-matchers/issues).
 

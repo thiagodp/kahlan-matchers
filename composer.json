@@ -18,5 +18,8 @@
     },
     "require-dev": {
         "kahlan/kahlan": "^5.2"
+    },
+    "require": {
+        "ext-mbstring": "*"
     }
 }
