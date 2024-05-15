@@ -9,16 +9,16 @@
     "packages-dev": [
         {
             "name": "kahlan/kahlan",
-            "version": "5.2.5",
+            "version": "5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kahlan/kahlan.git",
-                "reference": "b306b275316c35c96da931fb619387e82eb61760"
+                "reference": "e7d89f4a6ba0d71517a31e7e197b14d3bd85a0af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kahlan/kahlan/zipball/b306b275316c35c96da931fb619387e82eb61760",
-                "reference": "b306b275316c35c96da931fb619387e82eb61760",
+                "url": "https://api.github.com/repos/kahlan/kahlan/zipball/e7d89f4a6ba0d71517a31e7e197b14d3bd85a0af",
+                "reference": "e7d89f4a6ba0d71517a31e7e197b14d3bd85a0af",
                 "shasum": ""
             },
             "require": {
@@ -62,9 +62,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kahlan/kahlan/issues",
-                "source": "https://github.com/kahlan/kahlan/tree/5.2.5"
+                "source": "https://github.com/kahlan/kahlan/tree/5.2.6"
             },
-            "time": "2023-09-12T10:35:16+00:00"
+            "time": "2023-12-05T21:56:31+00:00"
         }
     ],
     "aliases": [],

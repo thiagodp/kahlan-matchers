@@ -18,6 +18,7 @@ See [tips](tips.md) for help.
 - Exception:
   - [toThrowAnExceptionThatMatches](spec/ToThrowAnExceptionThatMatches.spec.php) - compares an exception message with the given Regular Expression
   - [toThrowAnExceptionWithCode](spec/ToThrowAnExceptionWithCode.spec.php) - compares an exception code with the given code
+  - [toThrowAnExceptionWithClassName](spec/ToThrowAnExceptionWithClassName.spec.php) - compares an exception name with the given class name
 - String:
   - [toHaveStringLength](spec/ToHaveStringLength.spec.php) - compares a _multi-byte_ string length with the given length
 

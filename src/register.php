@@ -8,6 +8,11 @@ Kahlan\Matcher::register(
 );
 
 Kahlan\Matcher::register(
+    'toThrowAnExceptionWithClassName',
+    'phputil\kahlan\ToThrowAnExceptionWithClassName'
+);
+
+Kahlan\Matcher::register(
     'toThrowAnExceptionThatMatches',
     'phputil\kahlan\ToThrowAnExceptionThatMatches'
 );
